@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+    int No1 = 0,No2 = 0,Sum,Sub,Div,Mod,Mul;
+    
+    printf("\n Enter Frist Number =>");
+    scanf("%d",&No1);
+    
+    printf("\n Enter Second Number =>");
+    scanf("%d",&No2);
+    
+    Sum = No1 + No2;
+    
+    printf("\n\n Addition Of Two Numbers => %d",Sum);
+    
+    Sub = No1 - No2;
+    
+    printf("\n\n Subtraction Of Two Numbers => %d",Sub);
+    
+    Div = No1 / No2;
+    
+    printf("\n\n Division Of Two Numbers => %d",Div);
+    
+    Mod = No1 % No2;
+    
+    printf("\n\n Modulo Of Two Numbers => %d",Mod);
+    
+    Mul = No1 * No2;
+    
+    printf("\n\n Multification Of Teo Numbers => %d",Mul);
+    
+    printf("\n\n Thanks!!!");
+    
+    getch();
+    return 0;
+    
+}    
+   
+    
+    
+    
+    
